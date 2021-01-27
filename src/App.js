@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
-import Menu from './components/Menu/Menu'
-import PacotesBrasil from './components/pacote/Pacote'
-import { Animated } from "react-animated-css";
-
+import Menu from './component/Menu/Menu'
+import PacotesBrasil from './component/pacote/Pacote'
 
 class Pacotes extends Component {
-
- 
-
 
   render() {
     return (
       <div>
            <Menu />
            <PacotesBrasil />
+           
       </div>
     );
   }
