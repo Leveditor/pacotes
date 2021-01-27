@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
-import {Animated} from "react-animated-css";
+import Menu from './components/Menu/Menu'
+import { Animated } from "react-animated-css";
+
 
 class Pacotes extends Component {
 
+ 
 
-  render(){
+
+  render() {
     return (
-           <div>
-                <div>
+      <div>
+           <Menu />
 
-                 
-                  
-                </div>
-           </div>
+      </div>
     );
   }
 }
