@@ -49,6 +49,15 @@
     display: none;
   }
 
+
+
+@media (max-width: 320px) {
+
+  #bt_menu:checked ~ .menu {
+    margin-bottom: 30%;
+  }
+}
+
   @media (max-width: 800px) {
     .menu ul li {
       width: 100%;

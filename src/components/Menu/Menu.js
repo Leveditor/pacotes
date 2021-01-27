@@ -6,9 +6,9 @@ class Menu extends Component {
         return (
             <div>
                 <input type="checkbox" id="bt_menu" />
-                    <label for="bt_menu">&#9776;</label>
+                    <label htmlFor="bt_menu">&#9776;</label>
 
-                    <nav class="menu">
+                    <nav className="menu">
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Pacotes no Brasil</a>
