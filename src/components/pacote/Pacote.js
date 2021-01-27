@@ -22,7 +22,7 @@ class PacotesBrasil extends Component {
 
                 <section>
                     {/* ANIMAÇÃO */}
-                <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+                <Animated animationIn="bounceInLeft" animationOut="fadeOut">
                     <div className="pacote-ferias">
 
                         {/* DIV DE PROMOÇÃO */}
