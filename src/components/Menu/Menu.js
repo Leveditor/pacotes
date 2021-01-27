@@ -19,7 +19,7 @@ class Menu extends Component {
                         </ul>
                     </nav>
             </div>
-        )
+        );
     }
 }
 

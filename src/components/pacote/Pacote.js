@@ -21,15 +21,19 @@ class PacotesBrasil extends Component {
             <div>
 
                 <section>
+                    {/* ANIMAÇÃO */}
+                <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
                     <div className="pacote-ferias">
 
                         {/* DIV DE PROMOÇÃO */}
+                        
                         <div className="div-ferias">
                             <p><i className="fas fa-suitcase"></i>Pacotes</p>
                             <span>Promoções imperdíveis</span>
 
                             <h2>Uma seleção de pacotes para suas próximas férias</h2>
                         </div>
+                        
 
 
                         {/* CARDS DE PACOTES NO BRASIL */}
@@ -57,6 +61,7 @@ class PacotesBrasil extends Component {
                             );
                         })}
                     </div>
+                    </Animated>
                 </section>
             </div>
         );
