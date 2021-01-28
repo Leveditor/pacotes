@@ -50,15 +50,7 @@
   }
 
 
-
-@media (max-width: 320px) {
-
-  #bt_menu:checked ~ .menu {
-    margin-bottom: 30%;
-  }
-}
-
-  @media (max-width: 800px) {
+@media (min-width: 320px) and (max-width: 750px) {
     .menu ul li {
       width: 100%;
       float: none;
@@ -70,7 +62,7 @@
 
   #bt_menu:checked ~ .menu {
     margin-left: 0;
-    margin-bottom: 25%;
+    margin-bottom: 45%;
   }
 
   .menu {
@@ -80,6 +72,4 @@
     transition: all .4s;
   }
 
-  }
-
-
+}

@@ -62,6 +62,8 @@ class PacotesBrasil extends Component {
                         })}
                     </div>
                     </Animated>
+
+                    
                 </section>
             </div>
         );
