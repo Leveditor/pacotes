@@ -1,0 +1,69 @@
+.titulo-disney {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/* SESSÃO DE CARDS */
+
+.test {
+  display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards-pacote {
+    width: 220px;
+    box-shadow: 0 0 2em#CECACA;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+  
+.corpoCards {
+    padding: 10px;
+}
+  
+.corpoCards p i {
+    padding-right: 5px;
+}
+
+.corpoCards p {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+  
+img {
+  width: 220px;
+  height: 220px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+  
+.valor {
+  font-weight: bold;
+}
+  
+.botao-verMais {
+  background-color:#038DAC;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  padding: 5px 15px;
+}
+
+@media (min-width: 320px) {
+  .cards-pacote {
+    margin-top: 15px;
+  }
+
+  .div-ferias {
+    text-align: center;
+  }
+}
+
+
+
+
+
+
