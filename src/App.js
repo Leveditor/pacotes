@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Menu from './component/Menu/Menu'
-import PacotesBrasil from './component/pacote/Pacote'
+import Menu from './component/Menu/Menu';
+import PacotesBrasil from './component/pacote/pacote-brasil/Pacote';
+import Disney from './component/pacote/Disney/Disney';
 
 class Pacotes extends Component {
 
@@ -9,6 +10,7 @@ class Pacotes extends Component {
       <div>
            <Menu />
            <PacotesBrasil />
+           <Disney />
            
       </div>
     );
