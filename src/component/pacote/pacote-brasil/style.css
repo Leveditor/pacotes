@@ -11,10 +11,9 @@
     width: 550px;
 }
   
-.div-ferias p {
-    font-size: 30px;
-    font-weight: bold;
-} 
+h1 {
+  font-size: 40px;
+}
 
 .div-ferias span {
     padding-bottom: 30%;
