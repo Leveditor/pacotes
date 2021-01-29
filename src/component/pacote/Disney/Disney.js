@@ -27,11 +27,11 @@ class Disney extends Component {
                             <p>Pensamos estas propostas para que você desfrute de nossos hotéis de maior confiança e atrações imperdíveis com o preço mais conveniente para sua viagem.</p>
                         </div>
 
-                        <div className='test'>
+                        <div className='todosCards'>
                             {this.state.pacote.map((item) => {
                                 return (
-                                    <div className="cards" key={item.id}>
-                                        <div className="cards-pacote" >
+                                    <div key={item.id}>
+                                        <div className="cards-pacote">
 
                                             <div>
                                                 <img src={item.img} />
@@ -45,7 +45,7 @@ class Disney extends Component {
                                                 <small>Pacote a partir de</small>
                                                 <p className="valor">R$ {item.valor}</p>
 
-                                                <button className="botao-verMais">Ver pacote</button>
+                                                <button className="botao-verPacote">Ver pacote</button>
                                             </div>
                                         </div>
                                     </div>
