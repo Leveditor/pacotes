@@ -1,0 +1,61 @@
+.pacote-ferias-usa {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+    
+}
+
+/* SESSÃO DE CARDS */
+
+.cards-usa {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cards-pacote-usa {
+  width: 220px;
+  box-shadow: 0 0 2em#CECACA;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+  
+.corpoCards-usa {
+  padding: 10px;
+}
+  
+.corpoCards-usa p i {
+  padding-right: 5px;
+}
+
+.corpoCards-usa p {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+  
+img {
+  width: 220px;
+  height: 220px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+  
+.valor-usa {
+  font-weight: bold;
+  font-size: 20px;
+}
+  
+.botao-verMais-usa {
+  background-color:#FFDC2C;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  padding: 5px 15px;
+}
+
+@media (min-width: 320px) {
+  .cards-pacote-usa {
+    margin-top: 15px;
+  }
+}
