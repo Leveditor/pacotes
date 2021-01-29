@@ -8,6 +8,7 @@ class Disney extends Component {
         super(props);
         this.state = {
 
+            // DISNEY
             pacote: [
                 { id: 1, titulo: 'Orlando Flórida', viagem: '10 de fev 2021 - 20 d...', valor: '2.996', img: 'https://images.pexels.com/photos/2362002/pexels-photo-2362002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' },
                 { id: 2, titulo: 'Orlando Flórida', viagem: '17 de fev 2021 - 2 d...', valor: '3.237', img: 'https://images.pexels.com/photos/618902/pexels-photo-618902.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' },
@@ -30,6 +31,8 @@ class Disney extends Component {
                         <div className='todosCards'>
                             {this.state.pacote.map((item) => {
                                 return (
+
+                                    //  CARDS DISNEY
                                     <div key={item.id}>
                                         <div className="cards-disney">
 

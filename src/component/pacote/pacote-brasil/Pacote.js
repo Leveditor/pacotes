@@ -8,6 +8,7 @@ class PacotesBrasil extends Component {
         super(props);
         this.state = {
 
+            // BRASIL
             pacote: [
                 { id: 1, titulo: 'Rio de janeiro', viagem: '07 de fev 2021 - 09 d...', valor: '282', img: 'https://images.pexels.com/photos/1118877/pexels-photo-1118877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' },
                 { id: 2, titulo: 'Curitiba', viagem: '26 de fev 2021 - 28 d...', valor: '305', img: 'https://cdn.pixabay.com/photo/2017/03/23/12/44/botanical-garden-2168222_960_720.jpg' },
