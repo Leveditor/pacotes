@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './estilo.css';
+import './style.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 
@@ -36,11 +36,11 @@ class PacotesBrasil extends Component {
                             </div>
                         </div>
 
-                        <div className="test">
+                        <div className="cards">
                             {/* CARDS DE PACOTES NO BRASIL */}
                             {this.state.pacote.map((item) => {
                                 return (
-                                    <div className="cards" key={item.id}>
+                                    <div key={item.id}>
                                         <div className="cards-pacote" >
 
                                             <div>
@@ -55,7 +55,7 @@ class PacotesBrasil extends Component {
                                                 <small>Pacote a partir de</small>
                                                 <p className="valor">R$ {item.valor}</p>
 
-                                                <button className="botao-verPacote">Ver pacote</button>
+                                                <button className="botao-verMais">Ver pacote</button>
                                             </div>
                                         </div>
                                     </div>
