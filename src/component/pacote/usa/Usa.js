@@ -23,7 +23,7 @@ class Usa extends Component {
 
                 <section>
                     {/* ANIMAÇÃO */}
-                    <ScrollAnimation animateIn="slideInLeft">
+                    <ScrollAnimation animateIn="slideInUp">
 
                         {/* DIV FALANDO SOBRE O PACOTE */}
                         <div className="pacote-ferias-usa">
