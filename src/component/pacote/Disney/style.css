@@ -12,22 +12,22 @@
   flex-wrap: wrap;
 }
 
-.cards-pacote {
+.cards-disney {
   width: 220px;
   box-shadow: 0 0 2em#CECACA;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
   
-.corpoCards {
+.corpoCards-disney {
   padding: 10px;
 }
   
-.corpoCards p i {
+.corpoCards-disney p i {
     padding-right: 5px;
 }
 
-.corpoCards p {
+.corpoCards-disney p {
   padding-top: 10px;
   padding-bottom: 30px;
 }
@@ -39,7 +39,7 @@ img {
   border-top-right-radius: 20px;
 }
   
-.valor {
+.valor-disney {
   font-weight: bold;
 }
   
@@ -53,12 +53,8 @@ img {
 }
 
 @media (min-width: 320px) {
-  .cards-pacote {
+  .cards-disney {
     margin-top: 15px;
-  }
-
-  .div-ferias {
-    text-align: center;
   }
 }
 
