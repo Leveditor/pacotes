@@ -30,7 +30,7 @@ class PacotesBrasil extends Component {
                             {/* DIV DE PROMOÇÃO */}
 
                             <div className="div-ferias">
-                                <p><i className="fas fa-suitcase"></i>Pacotes</p>
+                                <h1><i className="fas fa-suitcase"></i>Pacotes</h1>
                                 <span>Promoções imperdíveis</span>
 
                                 <h2>Uma seleção de pacotes para suas próximas férias</h2>
