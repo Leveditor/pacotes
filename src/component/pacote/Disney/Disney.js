@@ -20,7 +20,7 @@ class Disney extends Component {
     render() {
         return (
             <div>
-                <div>
+                <main>
                     <ScrollAnimation animateIn="slideInRight">
                         <div className="titulo-disney">
                             <h2>Nossos Melhores Pacotes na Disney em Orlando</h2>
@@ -31,19 +31,19 @@ class Disney extends Component {
                             {this.state.pacote.map((item) => {
                                 return (
                                     <div key={item.id}>
-                                        <div className="cards-pacote">
+                                        <div className="cards-disney">
 
                                             <div>
                                                 <img src={item.img} />
                                             </div>
 
                                             {/* CORPO DO CARDS */}
-                                            <div className="corpoCards">
+                                            <div className="corpoCards-disney">
                                                 <h3>{item.titulo}</h3>
                                                 <p><i className="fas fa-plane"></i>{item.viagem}</p>
 
                                                 <small>Pacote a partir de</small>
-                                                <p className="valor">R$ {item.valor}</p>
+                                                <p className="valor-disney">R$ {item.valor}</p>
 
                                                 <button className="botao-verPacote">Ver pacote</button>
                                             </div>
@@ -53,7 +53,7 @@ class Disney extends Component {
                             })}
                         </div>
                     </ScrollAnimation>
-                </div>
+                </main>
             </div>
         );
     }
