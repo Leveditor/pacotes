@@ -6,21 +6,21 @@
 
 /* SESSÃO DE CARDS */
 
-.test {
+.todosCards {
   display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .cards-pacote {
-    width: 220px;
-    box-shadow: 0 0 2em#CECACA;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+  width: 220px;
+  box-shadow: 0 0 2em#CECACA;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
   
 .corpoCards {
-    padding: 10px;
+  padding: 10px;
 }
   
 .corpoCards p i {
@@ -43,7 +43,7 @@ img {
   font-weight: bold;
 }
   
-.botao-verMais {
+.botao-verPacote {
   background-color:#038DAC;
   border: none;
   font-size: 15px;
