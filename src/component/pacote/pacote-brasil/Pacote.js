@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './style.css';
+import './estilo.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 
@@ -55,7 +55,7 @@ class PacotesBrasil extends Component {
                                                 <small>Pacote a partir de</small>
                                                 <p className="valor">R$ {item.valor}</p>
 
-                                                <button className="botao-verMais">Ver pacote</button>
+                                                <button className="botao-verPacote">Ver pacote</button>
                                             </div>
                                         </div>
                                     </div>
